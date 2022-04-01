@@ -1,0 +1,70 @@
+body{
+    margin: 50px 200px;
+    background-color: black;
+}
+.bloc{
+    width: 1000px;
+    height: 600px;
+}
+.first{
+    height: 100px;
+    background-color: white;
+}
+.second{
+    padding: 0px 100px;
+    height: 400px;
+    background-color: rgb(45, 46, 59);
+    color: white;
+}
+.sec1{
+    display: inline-block;
+}
+.subscribe{
+    margin-top: -50px;
+    width: 300px;
+    padding: 20px;
+    float: left;
+    background-color: chocolate;
+}
+.about{
+    padding: 10px 50px;
+    float: right;
+}
+.sec2{
+    padding-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 80px); 
+}
+.categorie{
+    float: left;
+}
+.follow{
+    float: right;
+}
+span{
+    font-size: 18px;
+    font-weight: bold;
+}
+.fab{
+    padding-right: 10px;
+    color: chocolate;
+}
+p{
+    font-size: 23px;
+    font-weight: bold;
+}
+.mail{
+    width: 90%;
+    height: 25px;
+}
+.connect{
+    width: 93%;
+    height: 25px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+    margin-top: -5px;
+}
